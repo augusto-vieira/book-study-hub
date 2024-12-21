@@ -1,18 +1,11 @@
 # Capítulo 1: Introdução 
-
-1.1. A linguagem C
-
-1.2. Utilizando o Code::Blocks para programar em C
-
-1.3. Esqueleto de um programa em linguagem C
-
-1.4. A compilação do programa
-
-1.5 Comentários 
-
-1.6 Usando uma biblioteca: o comando #include
-
-1.7. Biblioteca e funções úteis da linguagem C
+- [1.1. A linguagem C](#11-a-linguagem-c)
+- [1.2. Utilizando o Code::Blocks para programar em C](#12-utilizando-o-codeblocks-para-programar-em-c)
+- [1.3. Esqueleto de um programa em linguagem C](#13-esqueleto-de-um-programa-em-linguagem-c)
+- [1.4. A compilação do programa](#14-a-compilacao-do-programa)
+- [1.5. Comentários](#15-comentarios)
+- [1.6. Usando uma biblioteca: o comando #include](#16-usando-uma-biblioteca-o-comando-include)
+- [1.7. Biblioteca e funções úteis da linguagem C](#17-biblioteca-e-funcoes-uteis-da-linguagem-c)
 
 ### Introdução:
 - O autor considera a linguagem C com uma das linguagens mais bem-sucedidas de `alto nível` já criada. 
@@ -23,7 +16,7 @@
 Ele comenta que a linguagem foi criada em 1972, nos laboratórios Bell, por Dennis Ritchie, sendo revida e padronizada pelo ANSI em 1989.
 Também aborda que a linguagem C fornece acesso a `memória de baixo nível`, o que permite acesso a programação direta do microprocessador. Também permitindo o uso de instruções direto no Assembly, o que pode ser usado para problemas de dependência `critica de tempo`.
 
-# 1.1.1. Influência da linguagem C
+#### 1.1.1. Influência da linguagem C
 
 ```mermaid
 stateDiagram-v2
@@ -54,7 +47,7 @@ stateDiagram-v2
     JAVA_2 --> C#
 ```
 
-# Influência da linguagem C  - Sintaxe 
+#### Influência da linguagem C  - Sintaxe 
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
@@ -99,16 +92,16 @@ for($i = 1; $i <=10; $i++) {
   </tr>
 </table>
 
-#### 1.2. Utilizando o `Code::Blocks` para programar em C
+### 1.2. Utilizando o `Code::Blocks` para programar em C
 #### 1.2.1. Criando um novo projeto no `Code::Blocks`
-#### 1.2.3 Utilizando o `debugger do Code::Blocks`
+#### 1.2.2 Utilizando o `debugger do Code::Blocks`
 - executar o passo a passo
 - Pausa o programa em pontos definidos, breakpoints, examinar o estado atual da variável.
-#### 1.3. Esqueleto de um programa em linguagem C
+### 1.3. Esqueleto de um programa em linguagem C
 #### 1.3.1. Indentação do código
 - Torna a leitura do código-fonte mais fácil e facilita a sua modificação.
 
-# 1.4. A compilação do programa:
+### 1.4. A compilação do programa:
 
 > Pré-processamento    : Remoção de comentários e intepretação das diretivas.
 
@@ -132,13 +125,13 @@ Serve para escrever alguma coisa, não modificam o comportamento do programa.
 
 `.c` : implementação das funções
 
-### 1.6.1 Criando suas próprias bibliotecas
+#### 1.6.1 Criando suas próprias bibliotecas
 - Podemos reaproveitar nossas funções, estruturas, etc.
     - \#include <`stdio.h`>
 
     - \#include "`minhaBiblioteca/soma.h`"
 
-# 1.7. Bibliotecas e funções úteis da linguagem C
+### 1.7. Bibliotecas e funções úteis da linguagem C
 1.7.1 Funções de entrada e saída: `stdio.h`
 - Operações em arquivos
 - Acesso a arquivos
@@ -182,7 +175,7 @@ Serve para escrever alguma coisa, não modificam o comportamento do programa.
 
 ---
 
-## meu complemento💡
+### meu complemento💡
 
 **Etapas da compilação do gcc**:
 
