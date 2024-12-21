@@ -5,14 +5,15 @@
 - [1.4. A compilação do programa](#14-a-compilacao-do-programa)
 - [1.5. Comentários](#15-comentarios)
 - [1.6. Usando uma biblioteca: o comando #include](#16-usando-uma-biblioteca-o-comando-include)
-- [1.7. Biblioteca e funções úteis da linguagem C](#17-biblioteca-e-funcoes-uteis-da-linguagem-c)
+- [1.7. Bibliotecas e funções úteis da linguagem C](#17-biblioteca-e-funcoes-uteis-da-linguagem-c)
+- [Meu complemento🔬📝](#meu-complemento)
 
 ### Introdução:
 - O autor considera a linguagem C com uma das linguagens mais bem-sucedidas de `alto nível` já criada. 
 - O livro vai buscar apresentar uma abordagem para programadores e não programadores, para isso ele utiliza o `Code::Blocks`.
 - `Code::Blocks`: IDE de código aberto, multiplataforma, múltiplos compiladores.
 
-### 1.1. A linguagem:
+### 1.1. A linguagem C
 Ele comenta que a linguagem foi criada em 1972, nos laboratórios Bell, por Dennis Ritchie, sendo revida e padronizada pelo ANSI em 1989.
 Também aborda que a linguagem C fornece acesso a `memória de baixo nível`, o que permite acesso a programação direta do microprocessador. Também permitindo o uso de instruções direto no Assembly, o que pode ser usado para problemas de dependência `critica de tempo`.
 
@@ -92,16 +93,16 @@ for($i = 1; $i <=10; $i++) {
   </tr>
 </table>
 
-### 1.2. Utilizando o `Code::Blocks` para programar em C
-#### 1.2.1. Criando um novo projeto no `Code::Blocks`
-#### 1.2.2 Utilizando o `debugger do Code::Blocks`
+### 1.2. Utilizando o Code::Blocks para programar em C
+#### 1.2.1. Criando um novo projeto no Code::Blocks
+#### 1.2.2 Utilizando o debugger do Code::Blocks
 - executar o passo a passo
 - Pausa o programa em pontos definidos, breakpoints, examinar o estado atual da variável.
 ### 1.3. Esqueleto de um programa em linguagem C
 #### 1.3.1. Indentação do código
 - Torna a leitura do código-fonte mais fácil e facilita a sua modificação.
 
-### 1.4. A compilação do programa:
+### 1.4. A compilação do programa
 
 > Pré-processamento    : Remoção de comentários e intepretação das diretivas.
 
@@ -175,7 +176,7 @@ Serve para escrever alguma coisa, não modificam o comportamento do programa.
 
 ---
 
-### meu complemento💡
+### Meu complemento🔬📝
 
 **Etapas da compilação do gcc**:
 
