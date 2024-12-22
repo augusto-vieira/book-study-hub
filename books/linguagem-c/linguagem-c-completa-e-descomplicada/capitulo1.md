@@ -5,7 +5,7 @@
 - [1.4. A compilação do programa](#14-a-compilacao-do-programa)
 - [1.5. Comentários](#15-comentarios)
 - [1.6. Usando uma biblioteca: o comando #include](#16-usando-uma-biblioteca-o-comando-include)
-- [1.7. Bibliotecas e funções úteis da linguagem C](#17-biblioteca-e-funcoes-uteis-da-linguagem-c)
+- [1.7. Bibliotecas e funções úteis da linguagem C](#17-bibliotecas-e-funcoes-uteis-da-linguagem-c)
 - [Meu complemento🔬📝](#meu-complemento)
 
 ### Introdução:
@@ -102,7 +102,7 @@ for($i = 1; $i <=10; $i++) {
 #### 1.3.1. Indentação do código
 - Torna a leitura do código-fonte mais fácil e facilita a sua modificação.
 
-### 1.4. A compilação do programa
+### 1.4. A compilacao do programa
 
 > Pré-processamento    : Remoção de comentários e intepretação das diretivas.
 
@@ -112,7 +112,7 @@ for($i = 1; $i <=10; $i++) {
 
 > Link-edição          : Unir todos os arquivos objetos.
 
-### 1.5. Comentários
+### 1.5. Comentarios
 Serve para escrever alguma coisa, não modificam o comportamento do programa.
 
 `// <palavras>`  : única linha
@@ -132,7 +132,7 @@ Serve para escrever alguma coisa, não modificam o comportamento do programa.
 
     - \#include "`minhaBiblioteca/soma.h`"
 
-### 1.7. Bibliotecas e funções úteis da linguagem C
+### 1.7. Bibliotecas e funcoes uteis da linguagem C
 1.7.1 Funções de entrada e saída: `stdio.h`
 - Operações em arquivos
 - Acesso a arquivos
@@ -349,7 +349,7 @@ Para o ld (linkador):
 Para o gdb (depurador):
 > man gdb
 
-Resumo:
+**Resumo:**
 - `Documentação online do GCC`: Fonte principal para consultar todas as ferramentas e utilitários do GCC.
 
 - `info gcc`: Para consultar o manual completo no seu sistema local.
