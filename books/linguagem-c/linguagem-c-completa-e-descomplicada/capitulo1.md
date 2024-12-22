@@ -320,16 +320,16 @@ gcc --print-prog-name=as
 ```
 
 ### Resumo dos principais utilitários do GCC:
-- gcc: Compilador de C
-- cpp: Pré-processador
-- gdb: Depurador (debugger)
-- as: Assembler
-- ld: Linkador
-- ar: Criador de arquivos estáticos
-- nm: Exibe informações sobre símbolos em arquivos objeto
-- strip: Remove símbolos de depuração de arquivos binários
-- objdump: Exibe informações detalhadas de arquivos binários
-- objcopy: Copia e modifica arquivos binário
+- **gcc**: Compilador de C
+- **cpp**: Pré-processador
+- **gdb**: Depurador (debugger)
+- **as**: Assembler
+- **ld**: Linkador
+- **ar**: Criador de arquivos estáticos
+- **nm**: Exibe informações sobre símbolos em arquivos objeto
+- **strip**: Remove símbolos de depuração de arquivos binários
+- **objdump**: Exibe informações detalhadas de arquivos binários
+- **objcopy**: Copia e modifica arquivos binário
 
 Consultar o manual com o comando info:
 > info gcc
