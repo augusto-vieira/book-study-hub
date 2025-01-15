@@ -1,4 +1,4 @@
-# Capítulo 2: Lendo e escrevendo nas variáveis
+# Capítulo 2 - Lendo e escrevendo nas variáveis
 
 Nesta capitulo, o autor vai apresentar os conceitos de variáveis:
 - Declarar variáveis.
@@ -10,14 +10,15 @@ Nesta capitulo, o autor vai apresentar os conceitos de variáveis:
 
 >Variável é uma posição de memória em que podemos guardar determinado dado ou valor e modificá-lo ao longo da execução do programa.
 
-### 2.1.1. Declarando uma variável 
+### Variáveis
+#### 2.1.1. Declarando uma variável 
 ```c
 int x;
 int x,y,z;
 ```
 O operador **" ; "** ponto e virgula é utilizado para separar as `instruções` da linguagem C.
 
-### 2.1.2. Dando um nome à variável 
+#### 2.1.2. Dando um nome à variável 
 > A liguagem C tem 32 palavras chaves reservadas.
 
 | Lista de palavras-chave da linguagem C |        |        |        |        |        |        |        |        |
@@ -27,7 +28,7 @@ O operador **" ; "** ponto e virgula é utilizado para separar as `instruções`
 | union	| const	 	| for	| short	    | unsigned	| char	| extern	| signed |
 | void	| default 	| do	| sizeof	| volatile	| goto	| register	| static |
 
-### 2.1.3. Definido o tipo da nossa variável
+#### 2.1.3. Definido o tipo da nossa variável
 A linguagem C possui um total de `5 tipos de dados básicos`.
 - `char`  : 1-byte, intervalo de -128 a 127.
 - `int`   : 4-byte.
@@ -35,7 +36,7 @@ A linguagem C possui um total de `5 tipos de dados básicos`.
 - `double`: 8-byte.
 - `void`  : 1-byte, sem valor.
 
-### 2.1.4. Os modificadores de tipo de uma variável
+#### 2.1.4. Os modificadores de tipo de uma variável
 A linguagem C possui um total de `4 tipos de modificadores`.
 
 - `signed`   : **char ou int** deve ter valor positivo e negativo, habilitado por padrão não precisa ser explicito na declaração.
