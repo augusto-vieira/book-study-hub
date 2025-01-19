@@ -19,7 +19,7 @@ int x,y,z;
 O operador **" ; "** ponto e virgula é utilizado para separar as `instruções` da linguagem C.
 
 #### 2.1.2. Dando um nome à variável 
-> A liguagem C tem 32 palavras chaves reservadas.
+> A linguagem C tem 32 palavras chaves reservadas.
 
 | Lista de palavras-chave da linguagem C |        |        |        |        |        |        |        |        |
 | ------------------------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |		
@@ -209,7 +209,7 @@ const float PI = 13.1415
 ```
 
 #### 2.5.1 Valor literal
-Um `valor literal` é a represenção de um dado dentro do próprio código-fonte. Na declaração a seguir, 10 é um valor literal.
+Um `valor literal` é a representação de um dado dentro do próprio código-fonte. Na declaração a seguir, 10 é um valor literal.
 ```c
 int n = 10;
 ```
