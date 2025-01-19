@@ -134,7 +134,6 @@ Para executar a aplicação execute o comando:
     ├── build
     │   ├── Makefile
     │   └── bin
-    │       └── hexagonal
     └── src
         ├── adapter
         │   ├── display.c
